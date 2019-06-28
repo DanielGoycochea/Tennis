@@ -6,30 +6,40 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tennis</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 <body>
   <header>
-    <div class="menu">
-      <div class="container">
-        <nav>
-          <ul>
-            <li class="list-menu"><a href="#">Inicio</a></li>
-            <li class="list-menu"><a href="#">Acerca de Nosotros</a></li>
-            <li class="list-menu"><a href="#">Historia</a></li>
-            <li class="list-menu"><a href="#">Contacto</a></li>
-          </ul>
-        </nav>
-        <ul class="es-en">
-          <li>ES</li>
-          <li>EN</li>
-        </ul>
+    <div class="header-ball"> 
+      <div>
+        <img class="ball" src="./fill-2.png" alt="">
       </div>
+    	<div class="vl"></div>
     </div>
-    <div>
-      <div class="container-title">
-        <p>Las mejores raquetas para Jugar <span class="text-style-1">Tennis</span></p>
-        <div>
-          <a href="#" class="">ACERCA DE NOSOTROS </a>
+    <div class="header-menu">
+      <div class="menu">
+        <div class="container">
+          <nav>
+            <ul>
+              <li class="list-menu"><a href="#">Inicio</a></li>
+              <li class="list-menu"><a href="#">Acerca de Nosotros</a></li>
+              <li class="list-menu"><a href="#">Historia</a></li>
+              <li class="list-menu"><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+          <ul class="es-en">
+            <li>ES</li>
+            <li>EN</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="container-title">
+          <p>Las mejores raquetas para Jugar <span class="text-style-1">Tennis</span></p>
+          <div>
+            <a href="#" class="">ACERCA DE NOSOTROS </a>
+          </div>
         </div>
       </div>
     </div>
@@ -61,9 +71,17 @@
           
           </div>
         </div>
-        <div>
-          <p>carrusel</p>
+        
+        <div class="owl-carousel owl-theme container-carousel">
+          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">1</div></div>
+          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">2</div></div>
+          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">3</div></div>
+          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">4</div></div>
+          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">5</div></div>
+          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">6</div></div>
+               
         </div>
+        
       </div>
 
     </section >
@@ -97,6 +115,28 @@
     </footer>
 
   </main>
-  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:100,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+  </script>
 </body>
 </html>
