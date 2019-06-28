@@ -1,0 +1,261 @@
+@font-face { font-family: HelveticaNeue; src: url('HelveticaNeueBd.ttf');}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'HelveticaNeue';
+  max-width: 1440px;;
+  
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 94px 0 157px;
+  
+}
+
+header ul{
+  display: flex;
+  margin-top: 44px;
+  
+}
+
+header ul li{
+  list-style: none;
+  margin-right: 15px
+}
+
+header .list-menu{
+  margin-right: 70px;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+header{
+  background: url(group.png); 
+  width: 1440px;
+  height: 785px;
+  object-fit: contain;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+header .container-title{
+  width: 709px;
+  height: 257px;
+  font-family: HelveticaNeue;
+  font-size: 53px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: -0.05px;
+  color: #ffffff;
+  margin-left: 173px;
+  margin-top: 225px;
+
+}
+
+.container-title .rectangulo{
+  width: 269px;
+  height: 53px;
+  border-radius: 26.5px;
+  border: solid 1px #ffffff;
+  font-size: 5px
+}
+
+.container-title a{
+
+  font-size: 13px;
+  color: #ffffff;
+  padding: 15px 49px 15px 30px;
+  border-radius: 26.5px;
+  border: solid 1px #ffffff;
+  line-height: 2.15;
+  letter-spacing: 1.01px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+nav ul li a, .es-en{
+
+  color: #ffffff;
+  
+}
+
+container-header{
+  display:  flex;
+}
+
+.container-title .text-style-1 {
+  font-weight: bold;
+  color: #cbe346;
+  letter-spacing: 1.01px;
+}
+.Tennis{
+  width: 174px;
+  height: 33px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.87px;
+  text-align: right;
+  color: #cbe346;
+  margin-right: 33px;
+  margin-top: 104px
+}
+.Rectangle {
+  width: 234px;
+  height: 53px;
+  border-radius: 26.5px;
+  border: solid 1px #282e47;
+}
+
+.RaquetasAccesorios{
+  width: 555px;
+  height: 151px;
+  font-family: HelveticaNeue;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: -0.06px;
+  color: #1e2335;
+  margin-top: 104px
+}
+
+.container-raquetas a{
+  font-size: 13px;
+  color: #273048;
+  padding: 15px 71px 15px 38px;
+  border-radius: 26.5px;
+  border: solid 1px #282e47;
+  width: 234px;
+  height: 53px;
+}
+
+.container-raquetas{
+  width: 1440px;
+  height: 392px;
+  background-color: #f3f4f8;
+  display: flex;
+  justify-content: center
+}
+.Conoce-nuestras-raqu {
+  width: 393px;
+  height: 87px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: 0.51px;
+  color: #787878;
+  margin-top: -60px
+}
+
+.seccion-history{
+  margin-top: 272px;
+}
+
+.img-section{
+  background: url(action-athlete-ball-342361.png);
+  width: 1440px;
+  height: 586px;
+  object-fit: contain;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 203px;
+  background-color: #cbe346
+}
+
+.container-footer ul li {
+  list-style: none;
+  margin-right: 30px;
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.14px;
+  
+
+}
+
+.container-footer ul li a{
+  color: #2b3049;
+}
+
+.container-footer ul{
+  display: flex
+}
+
+.container-footer .social li{
+  margin-right: 10px;
+}
+
+.container-footer .img-footer{
+  width: 55px;
+  height: 55px;
+  margin: 77px 63px
+}
+
+.container-footer .footer-list{
+  margin: 64px 0 102px 78px;
+}
+
+.container-nuestras{
+  display: flex;
+}
+
+.container-nuestras .img-nuestras{
+  background: url(./ball-color-court-1405355.png);
+  width: 530px;
+  height: 468px;
+}
+
+.container-nuestras .nuestras-text{
+  margin: 38px 27px 0 200px;
+  color: #ffffff
+}
+
+.nuestras-text :nth-child(1){
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: -0.06px;
+  color: #ffffff;
+  width: 259px;
+  height: 151px;
+}
+
+.nuestras-text :nth-child(2){
+  width: 303px;
+  height: 122px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.51px;
+  color: #ffffff;
+  margin-top: -60px;
+  font-weight: lighter
+}
