@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
   <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 <body>
   <header>
@@ -20,6 +21,7 @@
     <div class="header-menu">
       <div class="menu">
         <div class="container">
+          <img class="menu-icon" src="./images/menu.png" alt="">
           <nav>
             <ul>
               <li class="list-menu"><a href="#">Inicio</a></li>
@@ -53,7 +55,7 @@
             <p class="Tennis">TENNIS</p>
         </div>
         <div>
-              <p class="RaquetasAccesorios"> Raquetas.Accesorios. Pelotas</p>
+              <p class="RaquetasAccesorios"> Raquetas. Accesorios. Pelotas</p>
               <p class="Conoce-nuestras-raqu">Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>
         </div>
         <div class="seccion-history">
@@ -72,14 +74,15 @@
           </div>
         </div>
         
-        <div class="owl-carousel owl-theme container-carousel">
-          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">1</div></div>
-          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">2</div></div>
-          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">3</div></div>
-          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">4</div></div>
-          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">5</div></div>
-          <div class="item carousel-size"><img src="group-10.png" alt=""><div class="texto-carousel">6</div></div>
-               
+        <div class=" container-carousel">
+          <div class="owl-carousel owl-theme">
+            <div class="item carousel-size"><img src="./images/group-10.png" alt=""><div class="texto-carousel">1</div></div>
+            <div class="item carousel-size"><img src="./images/group-10.png" alt=""><div class="texto-carousel">2</div></div>
+            <div class="item carousel-size"><img src="./images/group-10.png" alt=""><div class="texto-carousel">3</div></div>
+            <div class="item carousel-size"><img src="./images/group-10.png" alt=""><div class="texto-carousel">4</div></div>
+            <div class="item carousel-size"><img src="./images/group-10.png" alt=""><div class="texto-carousel">5</div></div>
+            <div class="item carousel-size"><img src="./images/group-10.png" alt=""><div class="texto-carousel">6</div></div>
+         </div>
         </div>
         
       </div>
@@ -89,7 +92,8 @@
       <div class="img-section">
       </div>
     </section>
-    <footer>
+  </main>
+  <footer>
       <div class="container-footer">
         <div class="footer-list">
           <ul>
@@ -99,37 +103,35 @@
             <li><a href="#">Contacto</a></li>
           </ul>
           <ul class="social">
-            <li><a href="#"><img src="./group-23.png" alt=""></a></li>
-            <li><a href="#"><img src="./group-24.png" alt=""></a></li>
-            <li><a href="#"><img src="./group-25.png" alt=""></a></li>
-            <li><a href="#"><img src="./group-22.png" alt=""></a></li>
-            <li><a href="#"><img src="./group-26.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/group-23.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/group-24.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/group-25.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/group-22.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/group-26.png" alt=""></a></li>
          
           </ul>
         </div>
         <div class="img-footer" >
-          <img src="fill-2.png" alt="fill">
+          <img src="./images/fill-2.png" alt="fill">
         </div>
       </div>
 
     </footer>
-
-  </main>
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-  crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
   <script src="owlcarousel/owl.carousel.min.js"></script>
   <script>
     $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:100,
+    margin: 100,
     nav:true,
     responsive:{
         0:{
             items:1
         },
-        600:{
+        480:{
             items:2
         },
         1000:{
@@ -137,6 +139,18 @@
         }
     }
 })
+  </script>
+  <script>
+    $(document).ready(function(){
+
+      $('.menu-icon').click(function(){
+        $('header nav').slideToggle();
+
+      })
+
+
+
+    })
   </script>
 </body>
 </html>
