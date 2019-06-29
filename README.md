@@ -34,7 +34,7 @@ _herramientas Utilizadas para crear el proyecto_
 
 ## Gracias🎁
 
-* Otros proyectos 📢
-* [Santo Versus](https://danielgoycochea.github.io/ironhack-project-videogame/) 
-* [Bolsa de Trabajo para el Adulto Mayor](https://btam.herokuapp.com//) 
+ Otros proyectos 📢
+* [Santo Versus](https://danielgoycochea.github.io/ironhack-project-videogame/) - Juego creado con Css, Html.
+* [Bolsa de Trabajo para el Adulto Mayor](https://btam.herokuapp.com//) - Proyecto Realizado con React.js, Mongo, Node.js
 
